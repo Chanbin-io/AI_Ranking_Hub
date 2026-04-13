@@ -1,44 +1,72 @@
-<<<<<<< HEAD
-# AI_Ranking_Hub
-AI 랭킹 웹사이트
-=======
-# AI Ranking Web (React + Vite)
+# AI Ranking Hub
 
-피그마용 화면 구성표와 업로드된 Figma Make 기반 소스를 바탕으로 정리한 React/Vite 프로젝트입니다.
+카테고리별로 특출난 AI 서비스와 모델을 비교하고 탐색할 수 있는 React 기반 웹 애플리케이션입니다.
 
-## 포함 페이지
-- 홈 `/`
-- 카테고리 목록 `/categories`
-- 카테고리 상세 `/categories/:categoryId`
-- AI 상세 `/ai/:aiId`
-- 비교 페이지 `/compare`
-- 리뷰 `/reviews`
-- 가이드 `/guide`
-- 커뮤니티 `/community`
+## 소개
+
+AI Ranking Hub는 사용자가 목적에 맞는 AI를 빠르게 찾을 수 있도록 만든 비교형 웹사이트입니다.
+단순 인기순 나열이 아니라 카테고리별 랭킹, 버전별 성능 차이, 상세 비교, 리뷰, 가이드 페이지까지 한 번에 확인할 수 있도록 구성했습니다.
+
+## 주요 기능
+
+* 카테고리별 AI 랭킹 확인
+* AI 상세 정보 확인
+* 무료 버전 / 프로 버전 / 울트라 버전 성능 비교
+* 여러 AI 비교 기능
+* 리뷰 및 가이드 페이지 제공
+* 커뮤니티 페이지 구성
+* 반응형 UI 적용
+
+## 주요 페이지
+
+* Home
+* Category List
+* Category Detail
+* AI Detail
+* Compare
+* Reviews
+* Guide
+* Community
+
+## 기술 스택
+
+* React
+* Vite
+* React Router
+* Tailwind CSS
 
 ## 실행 방법
+
 ```bash
 npm install
 npm run dev
 ```
 
-브라우저에서 보통 아래 주소로 확인합니다.
+브라우저 접속 주소
+
 ```bash
 http://localhost:5173
 ```
 
-## 빌드
-```bash
-npm run build
-npm run preview
-```
+## 프로젝트 목적
 
-## 특징
-- Pretendard / SUIT / Noto Sans KR 기반 글꼴
-- 무료 버전 / 프로 버전 / 울트라 버전 성능 비교 섹션 반영
-- React Router 기반 페이지 라우팅
-- Tailwind CSS v4 + Vite 구조
+이 프로젝트는 다양한 AI 서비스를 카테고리 중심으로 정리하고,
+사용자가 자신의 목적에 맞는 AI를 더 쉽게 찾을 수 있도록 돕기 위해 제작되었습니다.
 
-## 참고
-정적 배포 환경에서 새로고침 404가 발생하면 서버 rewrite 설정이 필요할 수 있습니다.
->>>>>>> 0a46d35 (AI 랭킹 웹사이트 리액트 초기 버전 업로드)
+특히 성능 비교는 단순 점수 방식이 아니라 다음과 같이 체감 중심으로 구성했습니다.
+
+* 무료 버전: 기본 기능, 입문자용, 사용량 제한
+* 프로 버전: 더 빠른 응답, 더 높은 정확도, 고급 기능 제공
+* 울트라 버전: 최고 성능, 대용량 처리, 멀티모달 및 전문가용 기능 강화
+
+## 향후 확장 방향
+
+* 실제 AI 서비스 데이터 연동
+* 사용자 리뷰 저장 기능
+* 관리자 페이지 확장
+* 즐겨찾기 및 개인화 추천
+* 실시간 업데이트 반영
+
+## Author
+
+GitHub: Chanbin-io
